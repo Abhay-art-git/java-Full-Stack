@@ -17,7 +17,7 @@ public class jdbcConnection{
         try{
             String url ="jdbc:mysql://localhost:3306/aliens";
             String username ="root";
-            String Password="221120107025";
+            String Password="";//enter your mysql password
             String query="select * from student";
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection(url ,username , Password);
